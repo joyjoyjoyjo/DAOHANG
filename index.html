@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>肖伊的导航</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="//at.alicdn.com/t/font_934134_shmrxc5tsub.js"></script>
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="search">
+        <input type="text" spellcheck="false" placeholder="Search" id="searchInput">
+        <span class="button" searchEngine="baidu">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-icon_baidulogo"></use>
+            </svg>
+            <span>百度</span>
+        </span>
+        <span class="button" searchEngine="google">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-gugesousuo"></use>
+            </svg>
+            <span>谷歌</span>
+        </span>
+        <span class="button" searchEngine="bing">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-biying"></use>
+            </svg>
+            <span>必应</span>
+        </span>
+        <!-- 
+        <input type="button" value="百度搜索" id="baiduSearch">
+        <input type="button" value="谷歌搜索" id="googleSearch">
+        <input type="button" value="必应搜索" id="bingSearch"> -->
+    </div>
+    <main>
+        <div id="mainxxxx">
+            <!--<div class="kbd_wrapper">-->
+            <!--<kbd class="kbd">A</kbd>-->
+            <!--</div>-->
+        </div>
+    </main>
+    <div class="tips">
+        <div class="title">Tips:</div>
+        <div class="div"></div>
+        <div></div>
+        <ul>
+            <li>按键盘上相应字母进入导航网站</li>
+            <li>鼠标hover可自行编辑导航网址，并自动获取网站favicon</li>
+            <li>编辑后网址存在本地localStorage中</li>
+            <li>'.'代表未设置网站或无favicon</li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
